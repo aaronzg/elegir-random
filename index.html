@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegir aleatorio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+<body>
+    <section id="formulario_container" class="formulario_container">
+
+        <h1 id="section-title">Elegir random</h1>
+
+        <div action="" id="formulario" class="form">
+
+            <label for="" id="label-for-name">Ingresa los nombres</label>
+            
+            <input type="text" id="name" class="input-text">
+
+            <button id="boton" class="boton">
+                Añadir nombre a lista
+            </button>
+
+            <label for="condition-input" id="label-for-condition-input">Ingresa una condicion</label>
+
+            <input class="input-text" type="text" id="condition-input" placeholder="Ejem: El que salga es gay">
+
+            <button id="button-condition" class="boton">Añadir condicion</button>
+
+            <button id="startMatch" class="boton">
+                Elegir random
+            </button>
+
+        </div>
+
+        <div class="list-container">
+            
+            <h1 class="list-title">Lista de participantes</h1>
+            
+            <ul id="lista">
+
+            </ul>
+
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <section id="resultado-random-container" class="resultado-random-container">
+
+        
+        <h2 id="condition" class="condition">
+            condicion
+        </h2>
+        
+        <h2 id="name-text" class="name">
+            nombre
+        </h2>
+    </section>
+</body>
+</html>
